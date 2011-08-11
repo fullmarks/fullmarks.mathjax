@@ -1,3 +1,5 @@
+# coding=utf-8
+
 from setuptools import setup, find_packages
 import os
 
@@ -6,7 +8,7 @@ version = '1.0'
 setup(name='fullmarks.mathjax',
       version=version,
       description="MathJax for Plone",
-      long_description=open("README.txt").read() + "\n" +
+      long_description=open("README.rst").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       # Get more strings from
       # http://pypi.python.org/pypi?:action=list_classifiers
@@ -14,10 +16,10 @@ setup(name='fullmarks.mathjax',
         "Framework :: Plone",
         "Programming Language :: Python",
         ],
-      keywords='',
-      author='',
-      author_email='',
-      url='http://svn.plone.org/svn/collective/',
+      keywords='plone mathjax mathml mathematics',
+      author='Mark Horner and Roché Compaan',
+      author_email='dev@fullmarks.org.za',
+      url='http://github.com/fullmarks/fullmarks.mathjax',
       license='GPL',
       packages=find_packages(exclude=['ez_setup']),
       namespace_packages=['fullmarks'],
