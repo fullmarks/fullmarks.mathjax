@@ -5,6 +5,6 @@
              cookable="True"
              enabled="True"
              expression=""
-             id="++resource++fullmarks.mathjax/mathjax/MathJax.jsconfig=TeX-AMS-MML_HTMLorMML"
+             id="++resource++fullmarks.mathjax/mathjax/MathJax.js?config=default.js"
              inline="False"/>
 </object>
