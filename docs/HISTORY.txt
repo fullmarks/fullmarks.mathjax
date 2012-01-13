@@ -1,8 +1,8 @@
 Changelog
 =========
 
-1.1
----
+1.1 (unreleased)
+----------------
 
 - Fix MathJax config
 
