@@ -1,7 +1,12 @@
 Changelog
 =========
 
-1.0dev (unreleased)
--------------------
+1.1
+---
+
+- Fix MathJax config
+
+1.0
+---
 
 - Initial release
